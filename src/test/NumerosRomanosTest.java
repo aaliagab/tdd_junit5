@@ -45,6 +45,13 @@ class NumerosRomanosTest {
 	}
 	
 	@Test 
+	void convertir6ToRomano() {
+		String romano = numerosRomanos.toRomano(6);
+		
+		assertEquals(romano, "VI");
+	}
+	
+	@Test 
 	void convertir14ToRomano() {
 		String romano = numerosRomanos.toRomano(14);
 		
